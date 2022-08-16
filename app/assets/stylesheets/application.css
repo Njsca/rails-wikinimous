@@ -14,5 +14,37 @@
  *= require_self
  */
 body {
-  height: 100vh;
+  height: 120vh;
+  min-height: 100vh;
+  background-color: #294936;
+}
+h1{
+  color: black;
+}
+.card{
+  margin: 8px;
+  padding: 4px;
+  background-color: rgba(173, 188, 165, 1);
+}
+.hover-card:hover{
+  background-color: rgba(173, 188, 165, 0.5);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  list-style-type: none;
+}
+.btn{
+  color: white;
+  background-color: #2E294E;
+}
+.btn:hover{
+  color: white;
+  background-color: #3b365a;
 }
