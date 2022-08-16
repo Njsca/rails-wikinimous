@@ -1,0 +1,6 @@
+<h1><%= @article.title %></h1>
+<h5><%= @article.content %></h5>
+
+<%= link_to "Edit this article", edit_article_path(@article.id) %>
+<%= link_to "Delete this article", article_path(@article), data: {turbo_method: :delete, turbo_confirm: "Are your sure?"} %>
+<a href="/articles"><i class="fa-solid fa-arrow-rotate-left"></i></a>
